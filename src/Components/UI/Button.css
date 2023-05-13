@@ -1,0 +1,27 @@
+.btn{
+    color: white;
+    background-color: rgb(6, 15, 136);
+    /* display: inline-block; */
+    text-align: center;
+    font-size: larger;
+    border: white solid;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-family: 'Style Script', cursive;
+    box-sizing: border-box;
+    opacity: 100%;
+    transition: color 1s ease;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: black solid;
+}
+.btn:disabled{
+    cursor: not-allowed;
+    background-color: rgb(4, 12, 128);
+    color: black;
+    border: black solid;
+    
+}

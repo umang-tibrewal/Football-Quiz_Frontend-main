@@ -1,0 +1,44 @@
+.SUC {
+    opacity: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    max-width: 600px;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .label {
+      display: block;
+      font-size: 18px;
+      font-weight: bolder;
+      margin-bottom: 0.5rem;
+  }
+  
+  .input {
+      display: block;
+      color: white;
+      border: white;
+      background-color: rgba(250, 250, 250, 0.1);
+      height: 50px;
+      width: 100%;
+      border-radius: 3px;
+      padding: 0 10px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 1rem;
+  }
+  
+  .control{
+      display: flex;
+      gap: 1rem;
+      justify-content: space-around;
+      margin-top: 1rem;
+  }
+  
+  .SUB{
+      width: 100%;
+  }
+  

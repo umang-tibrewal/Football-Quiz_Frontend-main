@@ -1,0 +1,30 @@
+.ECard{
+    opacity: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    max-width: 600px;
+    color: white;
+    padding: 2rem;  
+}
+
+.display-data{
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+.list{
+    list-style: none;
+}
+.display-list-data{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-button{
+    margin-top: 2rem;
+    width: 100%;
+}
