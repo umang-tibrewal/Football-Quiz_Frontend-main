@@ -22,7 +22,7 @@ const SignInContext = ({ children }) => {
     const Login = async(e,email,password ) => {
         try{
             e.preventDefault();
-            const response = await axios.post("https://football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/login",{
+            const response = await axios.post("https://football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/user/login",{
                 email,
                 password
             });
