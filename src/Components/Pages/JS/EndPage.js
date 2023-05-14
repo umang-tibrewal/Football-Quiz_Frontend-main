@@ -15,7 +15,7 @@ const EndPage = () => {
   useEffect(() => {
     const scoreUpdate = async() =>{
         try{
-            const response = await axios.post(`football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/user/${userData._id}/topic/${topic}/score/${score}`)
+            const response = await axios.post(`https://football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/user/${userData._id}/topic/${topic}/score/${score}`)
             if(response.status === 200)
                 toast(" Score Updated ")
         }catch(error){

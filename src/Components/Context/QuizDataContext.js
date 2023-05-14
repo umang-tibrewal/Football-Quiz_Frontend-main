@@ -28,7 +28,7 @@ const QuizDataContext = ({children}) => {
     const [quiz, setQuizes] = useState(InitialQuizContext.quiz)
     useEffect(() =>{
         const getQuizData = async() => {
-            const quizResponse = await axios.get("football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/quiz")
+            const quizResponse = await axios.get("https://football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/quiz")
             setQuizes(quizResponse.data.getQuizData)
         }
         getQuizData()
