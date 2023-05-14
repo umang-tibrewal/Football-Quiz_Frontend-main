@@ -22,7 +22,7 @@ const SignInContext = ({ children }) => {
     const Login = async(e,email,password ) => {
         try{
             e.preventDefault();
-            const response = await axios.post("https://fotball-quiz.onrender.com/user/login",{
+            const response = await axios.post("football-quiz-backend-main.vercel.app/login",{
                 email,
                 password
             });

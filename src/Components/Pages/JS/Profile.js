@@ -11,7 +11,7 @@ const Profile = () => {
 
   useEffect(() => {
     const getUserData = async () => {
-      const response = await axios.get(`https://fotball-quiz.onrender.com/user/${userId}`);
+      const response = await axios.get(`football-quiz-backend-main.vercel.app/user/${userId}`);
       setuserData(response.data.findUser);
       console.log(response.data.findUser);
     };
