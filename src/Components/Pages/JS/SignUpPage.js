@@ -17,7 +17,7 @@ const SignUpPage = () => {
       try{
         e.preventDefault()
         const {username, email, password } = userInfo
-        const response = await axios.post("football-quiz-backend-main.vercel.app/user/registration",{
+        const response = await axios.post("football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/user/registration",{
           username,email,password
       });
         if(response.status === 422){

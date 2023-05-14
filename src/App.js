@@ -20,7 +20,7 @@ function App() {
   useEffect(()=>{
     const reload = async() =>{
       try{
-         const response = await axios.post("football-quiz-backend-main.vercel.app/user/userInfo",{ headers: { authorization:localStorage.getItem('token') }
+         const response = await axios.post("football-quiz-backend-main-h9v8y3si6-umang-tibrewal.vercel.app/user/userInfo",{ headers: { authorization:localStorage.getItem('token') }
        })
        if(response.status === 200){
           setUserData(response.data.userData)
